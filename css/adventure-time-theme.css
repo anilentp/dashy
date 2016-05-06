@@ -11,7 +11,7 @@
 .sidebar-closed #sidebar {
     margin-left: -180px;
 }
-section{
+body{
 	background-color: #F3F2F0;
 }
 /* header y sidebar */
@@ -51,6 +51,9 @@ section{
  .sidebar-toggle-box{
  	display: inline;
  }
+ .logo>a{
+ 	color: white;
+ }
  .nav>li>a {
  	background-color: #AC4792;
  	color: #999590;
@@ -73,21 +76,21 @@ section{
  	padding: 2px;
  	border-radius: 5px;
  }
-
 .text-center .sidebar-menu .nav-collapse h5{
 	color: white;
 	font-size: 30px;
 }
 .logo{
 	font-size: 30px;
+	color: white;
 }
-a {
-	color:  #E6E2E2;
+.top-menu .logout{
+	margin: -20%;
 }
-a:hover{
+a:hover, .logo{
 	color:  white;
 }
-li, a {
+ul, li, a {
 	text-decoration: none;
 }
  /* header y sidebar */
@@ -143,15 +146,103 @@ li, a {
 .ds{
 	background-color: #FFFFFF;
 }
+
+.nav-collapse>.sidebar-menu>.text-center>h5{
+	font-size: 20px;
+	color: white;
+}
+/* 
 .desc{
  	display: inline;
 }
 .badge{
 	font-size: 15px;
 }
+
+.thumbs{
+	display: block;
+	vertical-align: middle;
+	border: 0;
+}
 .details{
-	float: right;
+	display: table-cell;
+	vertical-align: top;	
 }
-.h3, h3{
-	font-size:14px;
+
+.desc:first-child {
+    margin-top: 0;
 }
+.desc, .details {
+    overflow: hidden;
+    zoom: 1;
+}
+.thumbs {
+    display: block;
+}
+.badge .img-circle span img {
+    vertical-align: middle;
+}
+.badge .img-circle span img {
+    border: 0;
+}
+.desc {
+    margin-top: 15px;
+}
+.details, .thumbs {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.thumbs, .desc>.pull-left {
+    padding-right: 10px;
+}
+.details {
+    width: 10000px;
+}
+.desc, .details {
+    overflow: hidden;
+    zoom: 1;
+}
+.details p a  {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.pull-left{
+	float: left;
+}
+PRUEBA */
+/* G A L E R I A */
+
+/* G A L E R I A */ 
+
+/* L O G I N */ 
+.container{
+	width: 100%;
+	padding: 10% 40% 10% 40%;
+	margin: 0 auto;
+}
+.form-login-heading{
+	background-color: #00E3F1;
+	color: white;
+	padding: 2%;
+	text-align: center;
+}
+.form-login{
+	background-color: white;
+	border-radius: 10px;
+}
+.login-wrap{
+	padding: 5%;
+}
+.registration{
+	text-align: center;
+	margin-bottom: 2%;
+}
+.checkbox>.pull-right>a{
+	margin-bottom: 2%;
+	font-size: 10px;
+}
+.wrapper .site-min-height>h3{
+	font-size: 20px;
+}
+/* L O G I N */ 
