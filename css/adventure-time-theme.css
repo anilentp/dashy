@@ -34,7 +34,7 @@ body{
  	z-index:20;
  	background-color: #414A57;
  	padding-top: 5%;
- 	padding-right: 5%;
+ 	padding-right: 1%;
  	padding-bottom: 100%;
  	color:  #999590;
  }
@@ -58,6 +58,7 @@ body{
  	background-color: #AC4792;
  	color: #999590;
  	display: inline-block;
+ 	text-decoration: none;
  }
  .nav>li>a:hover {
  	background-color: rgba(122, 21, 96, 0.7);
@@ -76,12 +77,8 @@ body{
  	padding: 2px;
  	border-radius: 5px;
  }
-.text-center .sidebar-menu .nav-collapse h5{
-	color: white;
-	font-size: 30px;
-}
 .logo{
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 }
 .top-menu .logout{
@@ -90,10 +87,21 @@ body{
 a:hover, .logo{
 	color:  white;
 }
-ul, li, a {
-	text-decoration: none;
+.pdSides {
+	font-size: 14px;
+}
+.h5, h5{
+	font-size: 20px;
+	color: white;
 }
  /* header y sidebar */
+ /* G A L L E R Y */
+ .row .mt {
+	display: inline-block;
+	padding: 2%;
+	width: 100%;
+ }
+ /* G A L L E R Y */
  #main-content{
 	position: relative;
 	top: 155px;
@@ -151,69 +159,6 @@ ul, li, a {
 	font-size: 20px;
 	color: white;
 }
-/* 
-.desc{
- 	display: inline;
-}
-.badge{
-	font-size: 15px;
-}
-
-.thumbs{
-	display: block;
-	vertical-align: middle;
-	border: 0;
-}
-.details{
-	display: table-cell;
-	vertical-align: top;	
-}
-
-.desc:first-child {
-    margin-top: 0;
-}
-.desc, .details {
-    overflow: hidden;
-    zoom: 1;
-}
-.thumbs {
-    display: block;
-}
-.badge .img-circle span img {
-    vertical-align: middle;
-}
-.badge .img-circle span img {
-    border: 0;
-}
-.desc {
-    margin-top: 15px;
-}
-.details, .thumbs {
-    display: table-cell;
-    vertical-align: top;
-}
-
-.thumbs, .desc>.pull-left {
-    padding-right: 10px;
-}
-.details {
-    width: 10000px;
-}
-.desc, .details {
-    overflow: hidden;
-    zoom: 1;
-}
-.details p a  {
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-.pull-left{
-	float: left;
-}
-PRUEBA */
-/* G A L E R I A */
-
-/* G A L E R I A */ 
 
 /* L O G I N */ 
 .container{
